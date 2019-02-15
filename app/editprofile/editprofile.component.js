@@ -9,7 +9,7 @@ const editprofile = {
     <input placeholder="Contact Info" type="text" ng-model="$ctrl.profileObject.contact">
     <p class="title">Bio</p>
     <input placeholder="Bio" type="text" ng-model="$ctrl.profileObject.bio">
-    <button>Update</button>
+    <button class="update">Update</button>
     </form>`,
     
     controller: ["ProfileService", function(ProfileService) {
